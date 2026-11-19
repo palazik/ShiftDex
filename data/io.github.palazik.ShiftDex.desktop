@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=ShiftDex
+GenericName=APK and JAR Editor
+Comment=Unpack, edit and repack APK and JAR files
+Exec=shiftdex %f
+Icon=io.github.palazik.ShiftDex
+Terminal=false
+Categories=Development;
+Keywords=apk;jar;android;smali;dex;unpack;repack;
+MimeType=application/vnd.android.package-archive;application/java-archive;application/x-java-archive;
+StartupWMClass=shiftdex

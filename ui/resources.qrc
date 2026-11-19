@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file alias="app.svg">../data/icons/hicolor/scalable/apps/io.github.palazik.ShiftDex.svg</file>
+        <file alias="check.svg">icons/check-light.svg</file>
+        <file alias="close.svg">icons/close.svg</file>
+        <file alias="close-hover.svg">icons/close-hover.svg</file>
+    </qresource>
+</RCC>

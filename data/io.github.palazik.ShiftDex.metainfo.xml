@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.palazik.ShiftDex</id>
+  <name>ShiftDex</name>
+  <summary>Unpack, edit and repack APK and JAR files</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <developer id="io.github.palazik">
+    <name>palaziks</name>
+  </developer>
+  <description>
+    <p>
+      ShiftDex unpacks Android apps and Java archives, lets you browse and edit
+      what is inside, and packs them again.
+    </p>
+    <ul>
+      <li>Edit smali code, resources and manifests with syntax highlighting</li>
+      <li>Read the same code as Java, decompiled by jadx, and jump between the two</li>
+      <li>Change an app's name, icon and package name</li>
+      <li>Snapshots of the whole project and backups of single files</li>
+      <li>Plugins: share a set of changes and apply it to other apps</li>
+      <li>White, black and AMOLED themes, configurable keyboard shortcuts</li>
+    </ul>
+    <p>
+      APK decoding and building is done by APKEditor, which ShiftDex downloads
+      on first run.
+    </p>
+  </description>
+  <launchable type="desktop-id">io.github.palazik.ShiftDex.desktop</launchable>
+  <url type="homepage">https://github.com/palazik/ShiftDex</url>
+  <url type="bugtracker">https://github.com/palazik/ShiftDex/issues</url>
+  <url type="vcs-browser">https://github.com/palazik/ShiftDex</url>
+  <categories>
+    <category>Development</category>
+  </categories>
+  <provides>
+    <binary>shiftdex</binary>
+  </provides>
+  <content_rating type="oars-1.1"/>
+  <releases>
+    <release version="1.0.0" date="2026-10-12">
+      <description>
+        <p>First release.</p>
+      </description>
+    </release>
+  </releases>
+</component>
